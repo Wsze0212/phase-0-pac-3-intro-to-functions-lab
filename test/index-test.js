@@ -1,4 +1,25 @@
+function shout(string) {
+  return string.toUpperCase();
+  // todo
+}
 
+function whisper(string) {
+  return string.toLowerCase();
+}
+
+function logShout(string) {
+  console.log(string.toUpperCase());
+}
+
+function logWhisper(string) {
+  console.log(string.toLowerCase());
+}
+
+function sayHiToHeadphoneRoommate(string) {
+  return string.toLowerCase();
+  console.log(string.toLowerCase());
+
+}
 describe('shout(string)', function() {
   it('receives one argument and returns it in all caps', function() {
     expect(shout('hello')).toEqual('HELLO');
